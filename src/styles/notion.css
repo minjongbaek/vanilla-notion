@@ -1,31 +1,14 @@
 /* Common */
 
-body {
-  margin: 0;
-  padding: 0;
-}
-
-ul {
-  padding: 0;
-  margin: 0;
-}
-
-li {
-  list-style-type: none;
-  cursor: pointer;
-}
-
 img {
   height: 100%;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 button {
   background-color: unset;
   border: unset;
   border-radius: 5%;
-  margin: 0;
-  padding: 0;
 }
 
 button:hover {
@@ -57,11 +40,11 @@ button:hover {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #D3D1CB;
+  background: #d3d1cb;
 }
 
 ::-webkit-scrollbar-track {
-  background: #EDECE9;
+  background: #edece9;
 }
 
 /* Icon */
@@ -83,19 +66,19 @@ button:hover {
 }
 
 .icon.dropdown-documents-button {
-  background-image: url(/src/assets/image/arrow.png);
+  background-image: url(/src/assets/images/arrow.png);
 }
 
 .icon.remove-document-button {
-  background-image: url(/src/assets/image/close.png);
+  background-image: url(/src/assets/images/close.png);
 }
 
 .icon.add-sub-document-button {
-  background-image: url(/src/assets/image/plus.png);
+  background-image: url(/src/assets/images/plus.png);
 }
 
 .icon.add-document-button {
-  background-image: url(/src/assets/image/plus.png);
+  background-image: url(/src/assets/images/plus.png);
   margin-right: 0.5rem;
 }
 
@@ -130,6 +113,7 @@ button:hover {
 .sidebar .document-list {
   width: 100%;
   overflow: hidden auto;
+  cursor: pointer;
 }
 
 .sidebar .document-list ul {
@@ -259,7 +243,7 @@ button:hover {
 
 .sub-documents-link a {
   text-decoration: none;
-  color: rgb(60, 70, 255)
+  color: rgb(60, 70, 255);
 }
 
 /* Modal */
